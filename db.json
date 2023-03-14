@@ -1,89 +1,375 @@
 {
   "onlineForms": [
     {
-      "ID": 0,
-      "id": 0,
-      "online_form_id": 0,
+      "ID": 200,
+      "id": 1678793000486,
+      "online_form_id": 1678793000486,
       "group_id": 1,
       "user_id": 3618,
-      "created_at": "2023-02-08T10:23:55.585608Z",
-      "updated_at": "2023-02-08T10:23:55.585608Z",
+      "CreatedAt": "2023-03-14T11:23:20.581Z",
+      "UpdatedAt": "",
       "DeletedAt": null,
-      "language": "fr",
-      "title": "Test preset_amount2222",
-      "tags": [
+      "slug": "titre-du-formulaire",
+      "author": "",
+      "body": [
         {
-          "name": "HelloGuys",
-          "appearance_count": 0
+          "type": "birthdate",
+          "label": {
+            "value": "Date de naissance",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
-          "name": "HelloWorld",
-          "appearance_count": 0
-        }
-      ],
-      "auto_insert_refvalues": [
+          "type": "gender",
+          "label": {
+            "value": "Genre",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
+        },
         {
-          "id": 7258,
-          "CreatedAt": "2022-11-16T08:28:34.690916Z",
-          "UpdatedAt": "2023-02-08T10:23:55.590113Z",
-          "form_id": 4413,
-          "label": "Soutien",
-          "value": "soutien",
-          "min": 0,
-          "type": "enforceSupport",
-          "color": "#048451"
+          "type": "birthcity",
+          "label": {
+            "value": "Commune de naissance",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
+        },
+        {
+          "type": "firstname",
+          "label": {
+            "value": "Prénom",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
+        },
+        {
+          "type": "mail",
+          "label": {
+            "value": "Email",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
+        },
+        {
+          "title": "address",
+          "type": "address",
+          "fields": [
+            {
+              "type": "address.building",
+              "label": {
+                "value": "Bâtiment",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.floor",
+              "label": {
+                "value": "Étage",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.door",
+              "label": {
+                "value": "Porte",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.housenumber",
+              "label": {
+                "value": "Numéro",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.street",
+              "label": {
+                "value": "Rue / Voie",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.addition",
+              "label": {
+                "value": "Complément d'adresse",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.postalcode",
+              "label": {
+                "value": "Code postal",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.city",
+              "label": {
+                "value": "Ville",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.country",
+              "label": {
+                "value": "Pays",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            },
+            {
+              "type": "address.pollingstation",
+              "label": {
+                "value": "Territoire",
+                "show": true
+              },
+              "description": {
+                "value": "",
+                "show": true
+              },
+              "mandatory": false,
+              "hidden": false,
+              "placeholder": "",
+              "default": {
+                "value": "",
+                "show": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "phone",
+          "label": {
+            "value": "Téléphone fixe",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
+        },
+        {
+          "type": "mobile",
+          "label": {
+            "value": "Téléphone mobile",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
+        },
+        {
+          "type": "surname",
+          "label": {
+            "value": "Nom",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         }
       ],
-      "cover_img": {
-        "url": "",
-        "cover_img_x": null,
-        "cover_img_y": null,
-        "background_size_ratio": null
+      "description": "Ajoutez ici une description accompagnant ce formulaire pour aider votre communauté à comprendre les attendus",
+      "type": "blank",
+      "auto_insert_refvalues": {
+        "id": 7485,
+        "CreatedAt": "2022-12-08T15:13:27.471461Z",
+        "UpdatedAt": "2023-03-06T14:23:21.609532Z",
+        "form_id": 4530,
+        "label": "Convaincu(e)",
+        "value": "convaincu(e)",
+        "min": 0,
+        "type": "enforceSupport",
+        "color": "#048451"
       },
-      "description": "Ceci est la description",
-      "submit_button": "Submit moi!",
-      "legal": [
-        {
-          "id": 1529,
-          "type": "privacy_policy",
-          "label": "The data collected via this form is processed by {{organization_name}} in order to take into account your support to the petition. To learn more about how your personal data is managed and to exercise your rights, please see the {{privacy_policy}}.",
-          "placeholder": "",
-          "mandatory": true,
-          "hidden": false,
-          "order": 0,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+      "indexing": false,
+      "form_state": "open",
+      "web_integration": {
+        "header": true,
+        "width": {
+          "value": 100,
+          "type": "%"
         },
-        {
-          "id": 1530,
-          "type": "consent_mobile",
-          "label": "I would like to receive information and updates related to {{organization_name}} by SMS",
-          "placeholder": "",
-          "mandatory": false,
-          "hidden": false,
-          "order": 2,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        "height": {
+          "value": 100,
+          "type": "%"
         },
-        {
-          "id": 1531,
-          "type": "consent_email",
-          "label": "I would like to receive information and updates related to {{organization_name}} by email",
-          "placeholder": "",
-          "mandatory": false,
-          "hidden": false,
-          "order": 1,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1532,
-          "type": "yes",
-          "label": "I agree that my data may be used by {{organization_name}} to record my signature. Please support {{organization_name}}!",
-          "placeholder": "",
-          "mandatory": true,
-          "hidden": false,
-          "order": 0,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        }
-      ],
+        "transparency": 100
+      },
       "colors": [
         {
           "name": "page-background",
@@ -95,7 +381,7 @@
         },
         {
           "name": "form-labels",
-          "value": "#17010B"
+          "value": "#DF0B69"
         },
         {
           "name": "links-text",
@@ -103,193 +389,53 @@
         },
         {
           "name": "sign-button-background",
-          "value": "#020F17"
-        }
-      ],
-      "share": [
-        {
-          "name": "facebook",
-          "show": false
-        },
-        {
-          "name": "twitter",
-          "show": true,
-          "text": ""
-        },
-        {
-          "body": "",
-          "name": "email",
-          "show": true,
-          "subject": ""
-        }
-      ],
-      "web_integration": {
-        "width": {
-          "type": "px",
-          "value": 200
-        },
-        "header": true,
-        "height": {
-          "type": "px",
-          "value": 300
-        },
-        "transparency": 100
-      },
-      "slug": "123-3",
-      "indexing": false,
-      "state": "draft",
-      "confirmation": {
-        "cover_img": "https://avatars-qomon.s3.fr-par.scw.cloud/group_avatars/27558598-17ea-4aee-a317-0dc4fe2e58e0.jpeg",
-        "title": "Merci !",
-        "body": "<p>Votre inscription a bien été prise en compte. The concept of Lorem Ipsum was created by and for the Chinese in order to make U.S. design jobs non-competitive. Despite the constant negative ipsum covfefe. You’re disgusting. Lorem Ipsum best not make any more threats to your website. It will be met with fire and fury like the world has never seen. I write the best placeholder text, and I\"m the biggest developer on the web by far... While that\"s mock-ups and this is politics, are they really so different? You\"re telling the enemy exactly what you\"re going to do. No wonder you\"ve been fighting Lorem Ipsum your entire adult life."
-      },
-      "body": [
-        {
-          "type": "firstname",
-          "label": {
-            "value": "label value",
-            "show": true
-          },
-          "description": {
-            "value": "description",
-            "show": true
-          },
-          "mandatory": false,
-          "hidden": false,
-          "placeholder": "",
-          "default": {
-            "value": "toto",
-            "show": true
-          }
-        }
-      ]
-    },
-    {
-      "ID": 1,
-      "CreatedAt": "2023-02-08T10:23:55.585608Z",
-      "UpdatedAt": "2023-02-08T10:23:55.585608Z",
-      "DeletedAt": null,
-      "id": 1,
-      "online_form_id": 1,
-      "group_id": 1,
-      "user_id": 3618,
-      "created_at": "2023-02-08T10:23:55.585608Z",
-      "updated_at": "2023-02-08T10:23:55.585608Z",
-      "slug": "123-3",
-      "author": "Vince",
-      "title": "form 1",
-      "description": "Ceci est la description",
-      "submit_button": "Submit moi!",
-      "language": "fr",
-      "state": "draft",
-      "indexing": false,
-      "colors": [
-        {
-          "name": "page-background",
-          "value": "#4F4F6D"
-        },
-        {
-          "name": "form-background",
-          "value": "#FFFFFF"
-        },
-        {
-          "name": "form-labels",
-          "value": "#17010B"
-        },
-        {
-          "name": "links-text",
           "value": "#DF0B69"
-        },
-        {
-          "name": "sign-button-background",
-          "value": "#020F17"
         }
       ],
-      "legal": [
-        {
-          "id": 1529,
-          "type": "privacy_policy",
-          "label": "The data collected via this form is processed by {{organization_name}} in order to take into account your support to the petition. To learn more about how your personal data is managed and to exercise your rights, please see the {{privacy_policy}}.",
-          "placeholder": "",
-          "mandatory": true,
-          "hidden": false,
-          "order": 0,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1530,
-          "type": "consent_mobile",
-          "label": "I would like to receive information and updates related to {{organization_name}} by SMS",
-          "placeholder": "",
-          "mandatory": false,
-          "hidden": false,
-          "order": 2,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1531,
-          "type": "consent_email",
-          "label": "I would like to receive information and updates related to {{organization_name}} by email",
-          "placeholder": "",
-          "mandatory": false,
-          "hidden": false,
-          "order": 1,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1532,
-          "type": "yes",
-          "label": "I agree that my data may be used by {{organization_name}} to record my signature. Please support {{organization_name}}!",
-          "placeholder": "",
-          "mandatory": true,
-          "hidden": false,
-          "order": 0,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        }
-      ],
-      "auto_insert_refvalues": [
-        {
-          "id": 7258,
-          "CreatedAt": "2022-11-16T08:28:34.690916Z",
-          "UpdatedAt": "2023-02-08T10:23:55.590113Z",
-          "form_id": 4413,
-          "label": "Soutien",
-          "value": "soutien",
-          "min": 0,
-          "type": "enforceSupport",
-          "color": "#048451"
-        }
-      ],
-      "tags": [
-        {
-          "name": "HelloGuys",
-          "color": "green",
-          "appearance_count": 0
-        },
-        {
-          "name": "HelloWorld",
-          "color": "green",
-          "appearance_count": 0
-        }
-      ],
-      "web_integration": {
-        "width": {
-          "type": "px",
-          "value": 200
-        },
-        "header": true,
-        "height": {
-          "type": "px",
-          "value": 300
-        },
-        "transparency": 100
-      },
       "cover_img": {
         "url": "",
-        "cover_img_x": 100,
-        "cover_img_y": 0,
-        "background_size_ratio": 1.2497149372862029
+        "background_size_ratio": null,
+        "cover_img_y": null,
+        "cover_img_x": null
       },
+      "confirmation": {
+        "cover_img": "",
+        "title": "",
+        "body": ""
+      },
+      "legal": [
+        {
+          "type": "yes",
+          "label": "J’accepte que mes données soient utilisées par {{organization_name}} pour enregistrer ma signature",
+          "mandatory": true,
+          "hidden": false,
+          "order": 0
+        },
+        {
+          "type": "consent_email",
+          "label": "Je souhaite recevoir les informations et mises à jour en lien avec {{organization_name}} par Email.",
+          "mandatory": false,
+          "hidden": false,
+          "order": 1
+        },
+        {
+          "type": "consent_mobile",
+          "label": "Je souhaite recevoir les informations et mises à jour en lien avec {{organization_name}} par SMS.",
+          "mandatory": false,
+          "hidden": true,
+          "order": 2
+        },
+        {
+          "type": "privacy_policy",
+          "label": "ONLINE_FORMS.LEGAL.PRIVACY_POLICY.TEXT",
+          "mandatory": true,
+          "hidden": false
+        }
+      ],
+      "tags": ["kosak", "kozehjfolfh", "LaRem"],
+      "title": "Titre du formulaire pour vincent",
+      "language": "fr",
+      "state": "draft",
       "share": [
         {
           "name": "facebook",
@@ -307,376 +453,7 @@
           "subject": ""
         }
       ],
-      "confirmation": {
-        "cover_img": "",
-        "title": "",
-        "body": ""
-      },
-      "body": [
-        {
-          "type": "firstname",
-          "label": {
-            "value": "prénom",
-            "show": true
-          },
-          "description": {
-            "value": "prénom",
-            "show": true
-          },
-          "mandatory": false,
-          "hidden": false,
-          "placeholder": {
-            "value": ""
-          },
-          "default": {
-            "value": "toto",
-            "show": true
-          }
-        }
-      ]
-    },
-    {
-      "ID": 2,
-      "CreatedAt": "2023-02-08T10:23:55.585608Z",
-      "UpdatedAt": "2023-02-08T10:23:55.585608Z",
-      "DeletedAt": null,
-      "id": 2,
-      "online_form_id": 2,
-      "group_id": 1,
-      "user_id": 3618,
-      "created_at": "2023-02-08T10:23:55.585608Z",
-      "updated_at": "2023-02-08T10:23:55.585608Z",
-      "slug": "123-3",
-      "author": "Vince",
-      "title": "form 2",
-      "description": "Ceci est la description",
-      "submit_button": "Submit moi!",
-      "language": "fr",
-      "state": "published",
-      "indexing": false,
-      "colors": [
-        {
-          "name": "page-background",
-          "value": "#4F4F6D"
-        },
-        {
-          "name": "form-background",
-          "value": "#FFFFFF"
-        },
-        {
-          "name": "form-labels",
-          "value": "#17010B"
-        },
-        {
-          "name": "links-text",
-          "value": "#DF0B69"
-        },
-        {
-          "name": "sign-button-background",
-          "value": "#020F17"
-        }
-      ],
-      "legal": [
-        {
-          "id": 1529,
-          "type": "privacy_policy",
-          "label": "The data collected via this form is processed by {{organization_name}} in order to take into account your support to the petition. To learn more about how your personal data is managed and to exercise your rights, please see the {{privacy_policy}}.",
-          "placeholder": "",
-          "mandatory": true,
-          "hidden": false,
-          "order": 0,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1530,
-          "type": "consent_mobile",
-          "label": "I would like to receive information and updates related to {{organization_name}} by SMS",
-          "placeholder": "",
-          "mandatory": false,
-          "hidden": false,
-          "order": 2,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1531,
-          "type": "consent_email",
-          "label": "I would like to receive information and updates related to {{organization_name}} by email",
-          "placeholder": "",
-          "mandatory": false,
-          "hidden": false,
-          "order": 1,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1532,
-          "type": "yes",
-          "label": "I agree that my data may be used by {{organization_name}} to record my signature. Please support {{organization_name}}!",
-          "placeholder": "",
-          "mandatory": true,
-          "hidden": false,
-          "order": 0,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        }
-      ],
-      "auto_insert_refvalues": [
-        {
-          "id": 7258,
-          "CreatedAt": "2022-11-16T08:28:34.690916Z",
-          "UpdatedAt": "2023-02-08T10:23:55.590113Z",
-          "form_id": 4413,
-          "label": "Soutien",
-          "value": "soutien",
-          "min": 0,
-          "type": "enforceSupport",
-          "color": "#048451"
-        }
-      ],
-      "tags": [
-        {
-          "name": "HelloGuys",
-          "color": "green",
-          "appearance_count": 0
-        },
-        {
-          "name": "HelloWorld",
-          "color": "green",
-          "appearance_count": 0
-        }
-      ],
-      "web_integration": {
-        "width": {
-          "type": "px",
-          "value": 200
-        },
-        "header": true,
-        "height": {
-          "type": "px",
-          "value": 300
-        },
-        "transparency": 100
-      },
-      "cover_img": {
-        "url": "",
-        "cover_img_x": 100,
-        "cover_img_y": 0,
-        "background_size_ratio": 1.2497149372862029
-      },
-      "share": [
-        {
-          "name": "facebook",
-          "show": true
-        },
-        {
-          "name": "twitter",
-          "show": true,
-          "text": ""
-        },
-        {
-          "body": "",
-          "name": "email",
-          "show": true,
-          "subject": ""
-        }
-      ],
-      "confirmation": {
-        "cover_img": "",
-        "title": "",
-        "body": ""
-      },
-      "body": [
-        {
-          "type": "firstname",
-          "label": {
-            "value": "prénom",
-            "show": true
-          },
-          "description": {
-            "value": "prénom",
-            "show": true
-          },
-          "mandatory": false,
-          "hidden": false,
-          "placeholder": {
-            "value": ""
-          },
-          "default": {
-            "value": "toto",
-            "show": true
-          }
-        }
-      ]
-    },
-    {
-      "ID": 3,
-      "CreatedAt": "2023-02-08T10:23:55.585608Z",
-      "UpdatedAt": "2023-02-08T10:23:55.585608Z",
-      "DeletedAt": null,
-      "id": 3,
-      "online_form_id": 3,
-      "group_id": 1,
-      "user_id": 3618,
-      "created_at": "2023-02-08T10:23:55.585608Z",
-      "updated_at": "2023-02-08T10:23:55.585608Z",
-      "slug": "123-3",
-      "author": "Vince",
-      "title": "new tittlee",
-      "description": "Ceci est la description",
-      "submit_button": "Submit moi!",
-      "language": "fr",
-      "state": "draft",
-      "archived": true,
-      "indexing": false,
-      "colors": [
-        {
-          "name": "page-background",
-          "value": "#4F4F6D"
-        },
-        {
-          "name": "form-background",
-          "value": "#FFFFFF"
-        },
-        {
-          "name": "form-labels",
-          "value": "#17010B"
-        },
-        {
-          "name": "links-text",
-          "value": "#DF0B69"
-        },
-        {
-          "name": "sign-button-background",
-          "value": "#020F17"
-        }
-      ],
-      "legal": [
-        {
-          "id": 1529,
-          "type": "privacy_policy",
-          "label": "The data collected via this form is processed by {{organization_name}} in order to take into account your support to the petition. To learn more about how your personal data is managed and to exercise your rights, please see the {{privacy_policy}}.",
-          "placeholder": "",
-          "mandatory": true,
-          "hidden": false,
-          "order": 0,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1530,
-          "type": "consent_mobile",
-          "label": "I would like to receive information and updates related to {{organization_name}} by SMS",
-          "placeholder": "",
-          "mandatory": false,
-          "hidden": false,
-          "order": 2,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1531,
-          "type": "consent_email",
-          "label": "I would like to receive information and updates related to {{organization_name}} by email",
-          "placeholder": "",
-          "mandatory": false,
-          "hidden": false,
-          "order": 1,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        },
-        {
-          "id": 1532,
-          "type": "yes",
-          "label": "I agree that my data may be used by {{organization_name}} to record my signature. Please support {{organization_name}}!",
-          "placeholder": "",
-          "mandatory": true,
-          "hidden": false,
-          "order": 0,
-          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
-        }
-      ],
-      "auto_insert_refvalues": [
-        {
-          "id": 7258,
-          "CreatedAt": "2022-11-16T08:28:34.690916Z",
-          "UpdatedAt": "2023-02-08T10:23:55.590113Z",
-          "form_id": 4413,
-          "label": "Soutien",
-          "value": "soutien",
-          "min": 0,
-          "type": "enforceSupport",
-          "color": "#048451"
-        }
-      ],
-      "tags": [
-        {
-          "name": "HelloGuys",
-          "color": "green",
-          "appearance_count": 0
-        },
-        {
-          "name": "HelloWorld",
-          "color": "green",
-          "appearance_count": 0
-        }
-      ],
-      "web_integration": {
-        "width": {
-          "type": "px",
-          "value": 200
-        },
-        "header": true,
-        "height": {
-          "type": "px",
-          "value": 300
-        },
-        "transparency": 100
-      },
-      "cover_img": {
-        "url": "",
-        "cover_img_x": 100,
-        "cover_img_y": 0,
-        "background_size_ratio": 1.2497149372862029
-      },
-      "share": [
-        {
-          "name": "facebook",
-          "show": true
-        },
-        {
-          "name": "twitter",
-          "show": true,
-          "text": ""
-        },
-        {
-          "body": "",
-          "name": "email",
-          "show": true,
-          "subject": ""
-        }
-      ],
-      "confirmation": {
-        "cover_img": "",
-        "title": "",
-        "body": ""
-      },
-      "body": [
-        {
-          "type": "firstname",
-          "label": {
-            "value": "prénom",
-            "show": true
-          },
-          "description": {
-            "value": "prénom",
-            "show": true
-          },
-          "mandatory": false,
-          "hidden": false,
-          "placeholder": {
-            "value": ""
-          },
-          "default": {
-            "value": "toto",
-            "show": true
-          }
-        }
-      ]
+      "sign_button": "Submit moi!"
     }
   ]
 }

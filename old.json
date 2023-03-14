@@ -1,0 +1,518 @@
+{
+  "onlineForms": [
+    {
+      "ID": 1,
+      "CreatedAt": "2023-02-08T10:23:55.585608Z",
+      "UpdatedAt": "2023-02-08T10:23:55.585608Z",
+      "DeletedAt": null,
+      "id": 1,
+      "online_form_id": 1,
+      "group_id": 1,
+      "user_id": 3618,
+      "created_at": "2023-02-08T10:23:55.585608Z",
+      "updated_at": "2023-02-08T10:23:55.585608Z",
+      "slug": "123-3",
+      "author": "Vince",
+      "title": "form 1",
+      "description": "Ceci est la description",
+      "submit_button": "Submit moi!",
+      "language": "fr",
+      "state": "draft",
+      "indexing": false,
+      "colors": [
+        {
+          "name": "page-background",
+          "value": "#4F4F6D"
+        },
+        {
+          "name": "form-background",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "form-labels",
+          "value": "#17010B"
+        },
+        {
+          "name": "links-text",
+          "value": "#DF0B69"
+        },
+        {
+          "name": "sign-button-background",
+          "value": "#020F17"
+        }
+      ],
+      "legal": [
+        {
+          "id": 1529,
+          "type": "privacy_policy",
+          "label": "The data collected via this form is processed by {{organization_name}} in order to take into account your support to the petition. To learn more about how your personal data is managed and to exercise your rights, please see the {{privacy_policy}}.",
+          "placeholder": "",
+          "mandatory": true,
+          "hidden": false,
+          "order": 0,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1530,
+          "type": "consent_mobile",
+          "label": "I would like to receive information and updates related to {{organization_name}} by SMS",
+          "placeholder": "",
+          "mandatory": false,
+          "hidden": false,
+          "order": 2,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1531,
+          "type": "consent_email",
+          "label": "I would like to receive information and updates related to {{organization_name}} by email",
+          "placeholder": "",
+          "mandatory": false,
+          "hidden": false,
+          "order": 1,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1532,
+          "type": "yes",
+          "label": "I agree that my data may be used by {{organization_name}} to record my signature. Please support {{organization_name}}!",
+          "placeholder": "",
+          "mandatory": true,
+          "hidden": false,
+          "order": 0,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        }
+      ],
+      "auto_insert_refvalues": [
+        {
+          "id": 7258,
+          "CreatedAt": "2022-11-16T08:28:34.690916Z",
+          "UpdatedAt": "2023-02-08T10:23:55.590113Z",
+          "form_id": 4413,
+          "label": "Soutien",
+          "value": "soutien",
+          "min": 0,
+          "type": "enforceSupport",
+          "color": "#048451"
+        }
+      ],
+      "tags": [
+        {
+          "name": "HelloGuys",
+          "color": "green",
+          "appearance_count": 0
+        },
+        {
+          "name": "HelloWorld",
+          "color": "green",
+          "appearance_count": 0
+        }
+      ],
+      "web_integration": {
+        "width": {
+          "type": "px",
+          "value": 200
+        },
+        "header": true,
+        "height": {
+          "type": "px",
+          "value": 300
+        },
+        "transparency": 100
+      },
+      "cover_img": {
+        "url": "",
+        "cover_img_x": 100,
+        "cover_img_y": 0,
+        "background_size_ratio": 1.2497149372862029
+      },
+      "share": [
+        {
+          "name": "facebook",
+          "show": true
+        },
+        {
+          "name": "twitter",
+          "show": true,
+          "text": ""
+        },
+        {
+          "body": "",
+          "name": "email",
+          "show": true,
+          "subject": ""
+        }
+      ],
+      "confirmation": {
+        "cover_img": "",
+        "title": "",
+        "body": ""
+      },
+      "body": [
+        {
+          "type": "firstname",
+          "label": {
+            "value": "prénom",
+            "show": true
+          },
+          "description": {
+            "value": "prénom",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": {
+            "value": ""
+          },
+          "default": {
+            "value": "toto",
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "CreatedAt": "2023-02-08T10:23:55.585608Z",
+      "UpdatedAt": "2023-02-08T10:23:55.585608Z",
+      "DeletedAt": null,
+      "id": 2,
+      "online_form_id": 2,
+      "group_id": 1,
+      "user_id": 3618,
+      "created_at": "2023-02-08T10:23:55.585608Z",
+      "updated_at": "2023-02-08T10:23:55.585608Z",
+      "slug": "123-3",
+      "author": "Vince",
+      "title": "form 2",
+      "description": "Ceci est la description",
+      "submit_button": "Submit moi!",
+      "language": "fr",
+      "state": "published",
+      "indexing": false,
+      "colors": [
+        {
+          "name": "page-background",
+          "value": "#4F4F6D"
+        },
+        {
+          "name": "form-background",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "form-labels",
+          "value": "#17010B"
+        },
+        {
+          "name": "links-text",
+          "value": "#DF0B69"
+        },
+        {
+          "name": "sign-button-background",
+          "value": "#020F17"
+        }
+      ],
+      "legal": [
+        {
+          "id": 1529,
+          "type": "privacy_policy",
+          "label": "The data collected via this form is processed by {{organization_name}} in order to take into account your support to the petition. To learn more about how your personal data is managed and to exercise your rights, please see the {{privacy_policy}}.",
+          "placeholder": "",
+          "mandatory": true,
+          "hidden": false,
+          "order": 0,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1530,
+          "type": "consent_mobile",
+          "label": "I would like to receive information and updates related to {{organization_name}} by SMS",
+          "placeholder": "",
+          "mandatory": false,
+          "hidden": false,
+          "order": 2,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1531,
+          "type": "consent_email",
+          "label": "I would like to receive information and updates related to {{organization_name}} by email",
+          "placeholder": "",
+          "mandatory": false,
+          "hidden": false,
+          "order": 1,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1532,
+          "type": "yes",
+          "label": "I agree that my data may be used by {{organization_name}} to record my signature. Please support {{organization_name}}!",
+          "placeholder": "",
+          "mandatory": true,
+          "hidden": false,
+          "order": 0,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        }
+      ],
+      "auto_insert_refvalues": [
+        {
+          "id": 7258,
+          "CreatedAt": "2022-11-16T08:28:34.690916Z",
+          "UpdatedAt": "2023-02-08T10:23:55.590113Z",
+          "form_id": 4413,
+          "label": "Soutien",
+          "value": "soutien",
+          "min": 0,
+          "type": "enforceSupport",
+          "color": "#048451"
+        }
+      ],
+      "tags": [
+        {
+          "name": "HelloGuys",
+          "color": "green",
+          "appearance_count": 0
+        },
+        {
+          "name": "HelloWorld",
+          "color": "green",
+          "appearance_count": 0
+        }
+      ],
+      "web_integration": {
+        "width": {
+          "type": "px",
+          "value": 200
+        },
+        "header": true,
+        "height": {
+          "type": "px",
+          "value": 300
+        },
+        "transparency": 100
+      },
+      "cover_img": {
+        "url": "",
+        "cover_img_x": 100,
+        "cover_img_y": 0,
+        "background_size_ratio": 1.2497149372862029
+      },
+      "share": [
+        {
+          "name": "facebook",
+          "show": true
+        },
+        {
+          "name": "twitter",
+          "show": true,
+          "text": ""
+        },
+        {
+          "body": "",
+          "name": "email",
+          "show": true,
+          "subject": ""
+        }
+      ],
+      "confirmation": {
+        "cover_img": "",
+        "title": "",
+        "body": ""
+      },
+      "body": [
+        {
+          "type": "firstname",
+          "label": {
+            "value": "prénom",
+            "show": true
+          },
+          "description": {
+            "value": "prénom",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": {
+            "value": ""
+          },
+          "default": {
+            "value": "toto",
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "CreatedAt": "2023-02-08T10:23:55.585608Z",
+      "UpdatedAt": "2023-02-08T10:23:55.585608Z",
+      "DeletedAt": null,
+      "id": 3,
+      "online_form_id": 3,
+      "group_id": 1,
+      "user_id": 3618,
+      "created_at": "2023-02-08T10:23:55.585608Z",
+      "updated_at": "2023-02-08T10:23:55.585608Z",
+      "slug": "123-3",
+      "author": "Vince",
+      "title": "new tittlee",
+      "description": "Ceci est la description",
+      "submit_button": "Submit moi!",
+      "language": "fr",
+      "state": "draft",
+      "archived": true,
+      "indexing": false,
+      "colors": [
+        {
+          "name": "page-background",
+          "value": "#4F4F6D"
+        },
+        {
+          "name": "form-background",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "form-labels",
+          "value": "#17010B"
+        },
+        {
+          "name": "links-text",
+          "value": "#DF0B69"
+        },
+        {
+          "name": "sign-button-background",
+          "value": "#020F17"
+        }
+      ],
+      "legal": [
+        {
+          "id": 1529,
+          "type": "privacy_policy",
+          "label": "The data collected via this form is processed by {{organization_name}} in order to take into account your support to the petition. To learn more about how your personal data is managed and to exercise your rights, please see the {{privacy_policy}}.",
+          "placeholder": "",
+          "mandatory": true,
+          "hidden": false,
+          "order": 0,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1530,
+          "type": "consent_mobile",
+          "label": "I would like to receive information and updates related to {{organization_name}} by SMS",
+          "placeholder": "",
+          "mandatory": false,
+          "hidden": false,
+          "order": 2,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1531,
+          "type": "consent_email",
+          "label": "I would like to receive information and updates related to {{organization_name}} by email",
+          "placeholder": "",
+          "mandatory": false,
+          "hidden": false,
+          "order": 1,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        },
+        {
+          "id": 1532,
+          "type": "yes",
+          "label": "I agree that my data may be used by {{organization_name}} to record my signature. Please support {{organization_name}}!",
+          "placeholder": "",
+          "mandatory": true,
+          "hidden": false,
+          "order": 0,
+          "petition_id": "73aef74b-b0ec-4b3d-9bb1-768bf8657ded"
+        }
+      ],
+      "auto_insert_refvalues": [
+        {
+          "id": 7258,
+          "CreatedAt": "2022-11-16T08:28:34.690916Z",
+          "UpdatedAt": "2023-02-08T10:23:55.590113Z",
+          "form_id": 4413,
+          "label": "Soutien",
+          "value": "soutien",
+          "min": 0,
+          "type": "enforceSupport",
+          "color": "#048451"
+        }
+      ],
+      "tags": [
+        {
+          "name": "HelloGuys",
+          "color": "green",
+          "appearance_count": 0
+        },
+        {
+          "name": "HelloWorld",
+          "color": "green",
+          "appearance_count": 0
+        }
+      ],
+      "web_integration": {
+        "width": {
+          "type": "px",
+          "value": 200
+        },
+        "header": true,
+        "height": {
+          "type": "px",
+          "value": 300
+        },
+        "transparency": 100
+      },
+      "cover_img": {
+        "url": "",
+        "cover_img_x": 100,
+        "cover_img_y": 0,
+        "background_size_ratio": 1.2497149372862029
+      },
+      "share": [
+        {
+          "name": "facebook",
+          "show": true
+        },
+        {
+          "name": "twitter",
+          "show": true,
+          "text": ""
+        },
+        {
+          "body": "",
+          "name": "email",
+          "show": true,
+          "subject": ""
+        }
+      ],
+      "confirmation": {
+        "cover_img": "",
+        "title": "",
+        "body": ""
+      },
+      "body": [
+        {
+          "type": "firstname",
+          "label": {
+            "value": "prénom",
+            "show": true
+          },
+          "description": {
+            "value": "prénom",
+            "show": true
+          },
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": {
+            "value": ""
+          },
+          "default": {
+            "value": "toto",
+            "show": true
+          }
+        }
+      ]
+    }
+  ]
+}
