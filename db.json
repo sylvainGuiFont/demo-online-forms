@@ -14,165 +14,327 @@
       "body": [
         {
           "type": "birthdate",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Date de naissance",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": ""
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "gender",
-          "label": "",
-          "description":"",
+          "label": {
+            "value": "Genre",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default":""
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "birthcity",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Commune de naissance",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default":"",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "firstname",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Prénom",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": ""
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "mail",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Email",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.building",
-          "label": "",
-          "description":"",
+          "label": {
+            "value": "Bâtiment",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.floor",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Étage",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.door",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Porte",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.housenumber",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Numéro",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default":"",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.street",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Rue / Voie",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.addition",
-          "label": "",
-          "description":"",
+          "label": {
+            "value": "Complément d'adresse",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.postalcode",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Code postal",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.city",
-          "label": "",
-          "description":"",
+          "label": {
+            "value": "Ville",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.country",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Pays",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "address.pollingstation",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Territoire",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "phone",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Téléphone fixe",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default":"",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "mobile",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Téléphone mobile",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         },
         {
           "type": "surname",
-          "label": "",
-          "description": "",
+          "label": {
+            "value": "Nom",
+            "show": true
+          },
+          "description": {
+            "value": "",
+            "show": true
+          },
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": {
+            "value": "",
+            "show": true
+          }
         }
       ],
       "description": "Ajoutez ici une description accompagnant ce formulaire pour aider votre communauté à comprendre les attendus",
