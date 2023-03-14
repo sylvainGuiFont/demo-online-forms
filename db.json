@@ -286,6 +286,294 @@
         }
       ],
       "sign_button": "Submit moi!"
-    }
+    },
+    {
+      "ID": 1678793000487,
+      "id": 1678793000487,
+      "online_form_id": 1678793000487,
+      "group_id": 1,
+      "user_id": 3618,
+      "CreatedAt": "2023-03-14T11:23:20.581Z",
+      "UpdatedAt": "",
+      "DeletedAt": null,
+      "slug": "titre-du-formulaire",
+      "author": "",
+      "body":[],
+      "fields": [
+        {
+          "type": "birthdate",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default":""
+        },
+        {
+          "type": "gender",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "birthcity",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "firstname",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "mail",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "address.building",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "address.floor",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "address.door",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "address.housenumber",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "address.street",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default":""
+        },
+        {
+          "type": "address.addition",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "address.postalcode",
+          "label": "",
+          "description":"",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "address.city",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "address.country",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default":""
+        },
+        {
+          "type": "address.pollingstation",
+          "label":"",
+          "description":"",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "phone",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "mobile",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        },
+        {
+          "type": "surname",
+          "label": "",
+          "description": "",
+          "mandatory": false,
+          "hidden": false,
+          "placeholder": "",
+          "default": ""
+        }
+      ],
+      "description": "Ajoutez ici une description accompagnant ce formulaire pour aider votre communauté à comprendre les attendus",
+      "type": "blank",
+      "auto_insert_refvalues": {
+        "id": 7485,
+        "CreatedAt": "2022-12-08T15:13:27.471461Z",
+        "UpdatedAt": "2023-03-06T14:23:21.609532Z",
+        "form_id": 4530,
+        "label": "Convaincu(e)",
+        "value": "convaincu(e)",
+        "min": 0,
+        "type": "enforceSupport",
+        "color": "#048451"
+      },
+      "indexing": false,
+      "form_state": "open",
+      "web_integration": {
+        "header": true,
+        "width": {
+          "value": 100,
+          "type": "%"
+        },
+        "height": {
+          "value": 100,
+          "type": "%"
+        },
+        "transparency": 100
+      },
+      "colors": [
+        {
+          "name": "page-background",
+          "value": "#FBF8F6"
+        },
+        {
+          "name": "form-background",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "form-labels",
+          "value": "#DF0B69"
+        },
+        {
+          "name": "links-text",
+          "value": "#DF0B69"
+        },
+        {
+          "name": "sign-button-background",
+          "value": "#DF0B69"
+        }
+      ],
+      "cover_img": {
+        "url": "",
+        "background_size_ratio": null,
+        "cover_img_y": null,
+        "cover_img_x": null
+      },
+      "confirmation": {
+        "cover_img": "",
+        "title": "",
+        "body": ""
+      },
+      "legal": [
+        {
+          "type": "yes",
+          "label": "J’accepte que mes données soient utilisées par {{organization_name}} pour enregistrer ma signature",
+          "mandatory": true,
+          "hidden": false,
+          "order": 0
+        },
+        {
+          "type": "consent_email",
+          "label": "Je souhaite recevoir les informations et mises à jour en lien avec {{organization_name}} par Email.",
+          "mandatory": false,
+          "hidden": false,
+          "order": 1
+        },
+        {
+          "type": "consent_mobile",
+          "label": "Je souhaite recevoir les informations et mises à jour en lien avec {{organization_name}} par SMS.",
+          "mandatory": false,
+          "hidden": true,
+          "order": 2
+        },
+        {
+          "type": "privacy_policy",
+          "label": "ONLINE_FORMS.LEGAL.PRIVACY_POLICY.TEXT",
+          "mandatory": true,
+          "hidden": false
+        }
+      ],
+      "tags": ["kosak", "kozehjfolfh", "LaRem"],
+      "title": "fini body",
+      "language": "fr",
+      "state": "draft",
+      "share": [
+        {
+          "name": "facebook",
+          "show": true
+        },
+        {
+          "name": "twitter",
+          "show": true,
+          "text": ""
+        },
+        {
+          "body": "",
+          "name": "email",
+          "show": true,
+          "subject": ""
+        }
+      ],
+      "sign_button": "Submit moi!"
+    },
   ]
 }
