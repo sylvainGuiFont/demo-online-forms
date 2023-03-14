@@ -19,7 +19,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default":"",
+          "default":""
         },
         {
           "type": "gender",
@@ -28,7 +28,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "birthcity",
@@ -37,7 +37,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "firstname",
@@ -46,7 +46,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "mail",
@@ -55,7 +55,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "address.building",
@@ -64,7 +64,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "address.floor",
@@ -73,7 +73,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "address.door",
@@ -82,7 +82,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "address.housenumber",
@@ -91,7 +91,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "address.street",
@@ -100,7 +100,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default":"",
+          "default":""
         },
         {
           "type": "address.addition",
@@ -109,7 +109,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "address.postalcode",
@@ -118,7 +118,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "address.city",
@@ -127,7 +127,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "address.country",
@@ -136,7 +136,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default":"",
+          "default":""
         },
         {
           "type": "address.pollingstation",
@@ -145,7 +145,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "phone",
@@ -154,7 +154,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "mobile",
@@ -163,7 +163,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         },
         {
           "type": "surname",
@@ -172,7 +172,7 @@
           "mandatory": false,
           "hidden": false,
           "placeholder": "",
-          "default": "",
+          "default": ""
         }
       ],
       "description": "Ajoutez ici une description accompagnant ce formulaire pour aider votre communauté à comprendre les attendus",
